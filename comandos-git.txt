@@ -1,0 +1,46 @@
+# CONFIGURACIÓN INICIAL
+git init
+git remote add -f origin [URL]
+git pull origin master
+------------------------------
+# MANDAR CAMBIOS
+git status
+git add [archivo]
+git commit -m "detalle"
+git push origin master
+------------------------------
+
+cd -> movernos entre carpetas
+mkdir -> nueva carpeta
+ls(listar) -> ver carpetas
+ls -a -> todos
+touch -> crear archivos
+rm -> borrar archivos
+rm -rf -> para borrar carpetas
+vim -> editor de texto (wq)
+---------------------------------------
+git init [nombre-repo] -> crea repo de git
+git status -> ver estado de git
+git add [nombre-archivo] -> agregar a staging
+git add -A -> todos
+git commit -m "" 
+git tag -a [número] -m ""
+git diff + SHA1 para ver cambios
+git reset --soft + [SHA1] -> quita commits y mantiene cambios en stage
+git reset --mixed + [SHA1] -> quita commits y los deja en el workingdirectory
+git reset --hard + [SHA1] ->Nos elimina los cambios, es el más peligroso de todos porque podemos perder parte de nuestro trabajo.
+git branch [nombre]
+git checkout [nombre-branch]
+git checkout -b [nombre-branch] -> creo y me muevo
+git merge rama
+git stash -> estado intermedio sin hacer un commit
+git stash apply
+git cherry-pick 
+----------------------
+ssh-keygen -t rsa -b 4096 -C "rherera.ar@gmail.com"
+cat ~/.ssh/id_rsa.pub
+git remote add [nombre(origin)] clone ssh
+git fetch origin master
+git merge origin/master --allow-unrelated-histories
+git pull
+git push
