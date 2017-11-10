@@ -1,9 +1,9 @@
-# CONFIGURACIÓN INICIAL
+#CONFIGURACIÃ“N INICIAL
 git init
 git remote add -f origin [URL]
 git pull origin master
 ------------------------------
-# MANDAR CAMBIOS
+#MANDAR CAMBIOS
 git status
 git add [archivo]
 git commit -m "detalle"
@@ -24,11 +24,11 @@ git status -> ver estado de git
 git add [nombre-archivo] -> agregar a staging
 git add -A -> todos
 git commit -m "" 
-git tag -a [número] -m ""
+git tag -a [nÃºmero] -m ""
 git diff + SHA1 para ver cambios
 git reset --soft + [SHA1] -> quita commits y mantiene cambios en stage
 git reset --mixed + [SHA1] -> quita commits y los deja en el workingdirectory
-git reset --hard + [SHA1] ->Nos elimina los cambios, es el más peligroso de todos porque podemos perder parte de nuestro trabajo.
+git reset --hard + [SHA1] ->Nos elimina los cambios, es el mÃ¡s peligroso de todos porque podemos perder parte de nuestro trabajo.
 git branch [nombre]
 git checkout [nombre-branch]
 git checkout -b [nombre-branch] -> creo y me muevo
