@@ -16,6 +16,22 @@ public class Tamagotchi {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        boolean cambioEstado = false;
+        String prueba = "";
+        
+        TamagotchiApp a = new TamagotchiApp();
+        
+        a.setNombre("Pepe");
+        a.setEstadoActual("hambriento");
+        
+        
+        System.out.println("El Estado es: " + a.getEstadoActual());
+        
+        cambioEstado = a.EjecutarEstado(0);
+        
+        System.out.println("El usuario ingreso la acción de: " + a.accion.get(0));
+        
+        System.out.println("El estado actual es: " + a.getEstadoActual());
     }
     
 }
