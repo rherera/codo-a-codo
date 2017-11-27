@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tamagotchi;
+package tamagotchi.estado;
 
 /**
  *
  * @author rherera
  */
-public abstract class Accion implements AccionImpl {
-    //SOLO LA USO PARA QUE IMPLEMENTEN LAS CLASES QUE LA HEREDAN
+public class Feliz extends Estado {
+
+
+    
 }

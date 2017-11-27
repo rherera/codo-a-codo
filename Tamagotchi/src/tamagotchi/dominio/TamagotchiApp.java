@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tamagotchi;
+package tamagotchi.dominio;
+
+import tamagotchi.estado.Estado;
 
 /**
  *
  * @author rherera
  */
-public interface AccionImpl {
+public class TamagotchiApp {
+    private Estado estado;
     
-    public void recibirAccion();
     
 }

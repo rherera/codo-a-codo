@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tamagotchi;
+package tamagotchi.estado;
 
 /**
  *
  * @author rherera
  */
-public abstract class Estado implements EstadoImpl{
-    private TamagotchiApp tamagotchi;
+public abstract class Estado{
     
     
 }
