@@ -9,13 +9,15 @@ package entidades;
  *
  * @author alumno
  */
-public class Estado {
+public class Estado implements EstadoImpl{
+    
     private String mostrarEstado;    
 
     public String getMostrarEstado() {
         return this.mostrarEstado;
     }
 
+    @Override
     public void setMostrarEstado(String mostrarEstado) {
         this.mostrarEstado = mostrarEstado;
     }

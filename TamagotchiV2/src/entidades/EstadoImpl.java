@@ -9,10 +9,7 @@ package entidades;
  *
  * @author alumno
  */
-public class Hambriento extends Estado{
+public interface EstadoImpl {
     
-    public Hambriento(){
-        this.setMostrarEstado("Hambriento");
-    }
-    
+    public void setMostrarEstado(String mostrarEstado);
 }
